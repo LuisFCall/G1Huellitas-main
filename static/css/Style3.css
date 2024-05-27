@@ -1,0 +1,95 @@
+/* Estilos específicos para la página "¿Quiénes somos?" */
+
+#quienes-somos {
+    padding: 20px;
+}
+
+#quienes-somos .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#quienes-somos h1 {
+    color: aquamarine;
+    font-size: 40px;
+    text-align: center;
+}
+
+#quienes-somos p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+/* Estilos específicos para la página "¿Quiénes somos?" */
+
+#quienes-somos {
+    padding: 20px;
+}
+
+#quienes-somos .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#quienes-somos h1 {
+    color: aquamarine;
+    font-family: "Brush Script MT", cursive;
+    font-size: 50px;
+    text-align: center;
+}
+
+#quienes-somos p {
+    font-family: "Brush Script MT", cursive;
+    font-size: 40px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: pink;
+}
+
+body {
+    font-family: "Brush Script MT", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 50px;
+    background-color: #333;
+    margin: 0;
+    padding: 0;
+    background-image: url('../img/ps2.jpg'); 
+        background-size: 800px 800px; 
+        background-repeat: repeat;
+        background-position: auto;
+        box-shadow:inset 0 0 0 2000px rgba(84, 84, 84, 0.5); 
+  }
+
+  #logo {
+    align-self: start;
+  }
+  
+  .logo {
+    position: fixed; 
+    top: 10; 
+    left: 10; 
+    padding: 10px; 
+  }
+  
+  .logo img {
+    max-width: 100px; 
+    height: auto; 
+  }
+  
+  /* Media query para dispositivos móviles */
+@media screen and (max-width: 576px) {
+    /* Estilos específicos para dispositivos móviles */
+}
+
+/* Media query para tablets y dispositivos con pantalla más pequeña */
+@media screen and (min-width: 577px) and (max-width: 768px) {
+    /* Estilos específicos para tablets y dispositivos con pantalla más pequeña */
+}
+
+/* Media query para pantallas medianas y grandes */
+@media screen and (min-width: 769px) {
+    /* Estilos específicos para pantallas medianas y grandes (como computadoras de escritorio) */
+}
